@@ -10,48 +10,82 @@
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="Ethix4AI Logo">
+            </div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Welcome to Ethix4AI</h1>
-        <p>Your trusted partner in ethical AI solutions.</p>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Welcome to Ethix4AI</h1>
+                <p>Your trusted partner in ethical AI solutions.</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Ethix4AI is dedicated to providing ethical AI solutions that ensure responsible and fair AI implementations...</p>
-    </section>
+        <section class="intro">
+            <h2>About Ethix4AI</h2>
+            <p>Ethix4AI is dedicated to providing ethical AI solutions that ensure responsible and fair AI implementations...</p>
+            <a href="about.html" class="btn">Read More</a>
+        </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a range of AI services including consulting, development, and implementation of ethical AI systems...</p>
-    </section>
+        <section class="founder">
+            <h2>Founder</h2>
+            <div class="person">
+                <img src="images/vijay.jpeg" alt="Vijay - Founder">
+                <h3>Vijay</h3>
+                <p>Founder and CEO</p>
+            </div>
+        </section>
 
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Read our latest articles on AI and ethics...</p>
-    </section>
+        <section class="co-founder">
+            <h2>Co-Founder</h2>
+            <div class="person">
+                <img src="images/harsha.jpeg" alt="Harsha - Co-Founder">
+                <h3>Harsha</h3>
+                <p>Co-Founder and CTO</p>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Consulting</h3>
+                <p>Expert advice on ethical AI practices and implementations...</p>
+            </div>
+            <div class="service">
+                <h3>Development</h3>
+                <p>Building AI systems with a focus on fairness and responsibility...</p>
+            </div>
+            <div class="service">
+                <h3>Training</h3>
+                <p>Workshops and training sessions on ethical AI principles...</p>
+            </div>
+            <a href="services.html" class="btn">View All Services</a>
+        </section>
+
+        <section class="blog-preview">
+            <h2>Latest Blog Posts</h2>
+            <article class="blog-post">
+                <h3><a href="blog.html">The Importance of Ethics in AI</a></h3>
+                <p>Exploring why ethical considerations are crucial in AI development...</p>
+            </article>
+            <article class="blog-post">
+                <h3><a href="blog.html">How to Implement Ethical AI</a></h3>
+                <p>Steps and guidelines for integrating ethical practices in AI projects...</p>
+            </article>
+            <a href="blog.html" class="btn">Read Our Blog</a>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 Ethix4AI. All rights reserved.</p>
